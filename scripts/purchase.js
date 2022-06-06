@@ -8,12 +8,12 @@ function sfgfggh(data){
 
     data.forEach(function(elem){
         let box1 = document.createElement("div")
-        box1.setAttribute("class","poiu")
-        let h2 = document.createElement("h2")
+
+        let h21 = document.createElement("h2")
         h21.innerText=elem.productName
 
         let imag1 = document.createElement("img")
-        imag1.src =elem.productImage
+        imag1.setAttribute("src",elem.productImage)
 
         let p11 = document.createElement("p")
         p11.innerText= elem.productPrice
